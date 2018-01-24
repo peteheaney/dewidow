@@ -1,0 +1,42 @@
+{
+    "name": "peteheaney/dewidow",
+    "description": "A Twig filter for Craft CMS 3 to remove text widows",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "dewidow",
+        "widow"
+    ],
+    "support": {
+        "docs": "https://github.com/peteheaney/dewidow/blob/master/README.md",
+        "issues": "https://github.com/peteheaney/dewidow/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pete Heaney",
+            "homepage": "https://www.peteheaney.com/"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1",
+        "mundschenk-at/php-typography": "^6.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "peteheaney\\dewidow\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "DeWidow",
+        "handle": "dewidow",
+        "schemaVersion": "1.0.0",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "class": "peteheaney\\dewidow\\Dewidow"
+    }
+}
