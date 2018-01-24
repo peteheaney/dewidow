@@ -24,7 +24,7 @@ To install the plugin:
 
 ## Using DeWidow
 
-Simple add the `dewidow` filter to any field containing text and it will remove widows from the text.
+Simply add the `dewidow` filter to any field containing text and it will remove widows from the text.
 
 ```twig
 {{ myTextField | dewidow | raw }}
