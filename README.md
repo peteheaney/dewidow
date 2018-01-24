@@ -1,6 +1,6 @@
-# DeWidow plugin for Craft CMS 3
+# DeWidow plugin for Craft 3
 
-A Twig filter for Craft CMS 3 to remove text widows.
+A Twig filter for Craft 3 to remove text widows.
 
 By replacing the space between the last two words in a string with `&nbsp;`, this filter will prevent widows on any field containing text.
 
