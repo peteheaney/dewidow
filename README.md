@@ -20,7 +20,7 @@ To install the plugin:
     composer require peteheaney/dewidow
    ```
 
-3. In the Control Panel, go to Settings → Plugins and click the "Install" button for Gobble.
+3. In the Control Panel, go to Settings → Plugins and click the "Install" button for DeWidow.
 
 ## Using DeWidow
 
